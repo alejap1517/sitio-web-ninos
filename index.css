@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', 'sans-serif';
+    overflow-x: hidden;
+}
+
+.header {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.upper-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    justify-content: center;
+}
+
+.nombre {
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 5.5%;
+}
+
+.nombre a, .enlaces a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.enlaces {
+    position: absolute;
+    top: 30px;
+    right: 5.5%;
+    display: flex;
+    gap: 35px;
+}
+
+.POP-IT {
+    position: absolute;
+    z-index: 2;
+    top: 135px;
+    left: 5.5%;
+    width: 45%;
+    max-width: 500px;
+}
+
+.POP-IT h1 {
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin-top: 250px;
+}
+
+.POP-IT p {
+    color: white;
+    font-size: 17px;
+    line-height: 1;
+}
+
+.comprar {
+    position: absolute;
+    z-index: 2;
+    top: 600px;
+    left: 5.5%;
+}
+
+.comprar a {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #a8e6f0;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Fondo-blanco {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.informacion {
+    max-width: 800px;
+    margin: auto;
+}
+
+.informacion h2, .Catalogo h2, .reglas h2 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Fondo-azul {
+    background-color: #d4f3f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.opcion1, .opcion2, .opcion3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.opcion1 img, .opcion2 img, .opcion3 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.opcion1 p, .opcion2 p, .opcion3 p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.comprar1 a, .comprar2 a, .comprar3 a {
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: #f5c86e;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fondo-foto {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.bg-mancha {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    z-index: 0;
+}
+
+.reglas { 
+    position: relative; 
+    z-index: 2; 
+    flex: 1;
+    max-width: 450px;
+} 
+
+.reglas p {
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 1;
+}
+
+.photo { 
+    position: relative; 
+    z-index: 2;
+    max-width: 450px;
+    flex: 1;
+} 
+.photo img { 
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+footer { 
+    background-color: #2c2c2c; 
+    padding: 25px 5.5%; 
+} 
+.pago { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; } 
+
+.pago a { 
+    color: #ccc; 
+    text-decoration: none; 
+    font-size: 0.85rem; 
+    transition: color 0.3s; 
+}
